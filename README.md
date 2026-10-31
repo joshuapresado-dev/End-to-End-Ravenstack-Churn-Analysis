@@ -15,5 +15,11 @@ To develop a data warehouse with PostgreSQL to analyze churn and retention withi
 
 #### Specifications
 
+## Licensing
 
+This dataset is fully synthetic and distributed under a permissive MIT-like license.
+
+You may use or remix it for learning, research, or portfolio purposes.
+
+**All rights to this dataset belong to River @ Rivalytics.**
 
