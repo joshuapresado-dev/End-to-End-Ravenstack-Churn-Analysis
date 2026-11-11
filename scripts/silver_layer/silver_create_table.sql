@@ -1,3 +1,20 @@
+/*
+===============================================================================================
+Procedure: Create Empty Silver Tables
+===============================================================================================
+Script purpose:
+		This prodcure is simply creating and preparing our silver tables to insert our bronze data into
+	Actions:
+		- Drop Table is it exists
+		- Creating Empty tables with the correct parameters to the orignal raw dataset
+		- Added metadata column for creation date
+===============================================================================================
+WARNING: IF USED YOU WILL EMPTY AND LOSE ALL DATA IN THE SILVER LAYERS
+-----------------------------------------------------------------------------------------------
+								USE WITH CAUTION
+===============================================================================================
+*/
+
 -- Load data into table for silver layer -- 
 
 drop table if exists silver.ravenstack_accounts;
