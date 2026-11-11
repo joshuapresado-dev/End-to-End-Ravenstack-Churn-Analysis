@@ -1,4 +1,19 @@
--- just standardizing --
+/*
+===============================================================================================
+Procedure: Insert Date into Table (Bronze to Silver)
+===============================================================================================
+Script purpose:
+		This stored procedure performs the ETL process to add the data from the Bronze tables to
+		the Silver tables
+	Actions:
+		- Truncate Silver Tables
+		- Insert transformed data from the Bronze Layer into the Silver Layer
+To Use:
+	call silver.load_silver();
+===============================================================================================
+*/
+
+-- Loading Data into the Silver Layer --
 
 
 create or replace procedure silver.load_silver()
