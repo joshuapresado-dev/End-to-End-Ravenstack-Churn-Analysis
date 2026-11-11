@@ -1,6 +1,6 @@
 /*
 ===============================================================================================
-Procedure: Create Empty Bronze Tables
+DDL (Data Defintion Language): Create Empty Bronze Tables
 ===============================================================================================
 Script purpose:
 		This prodcure is simply creating and preparing our bronze tables to insert our raw data into
