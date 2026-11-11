@@ -1,3 +1,19 @@
+/*
+===============================================================================================
+Procedure: Create Empty Bronze Tables
+===============================================================================================
+Script purpose:
+		This prodcure is simply creating and preparing our bronze tables to insert our raw data into
+	Actions:
+		- Drop Table is it exists
+		- Creating Empty tables with the correct parameters to the orignal raw dataset
+===============================================================================================
+WARNING: IF USED YOU WILL EMPTY AND LOSE ALL DATA IN THE BRONZE LAYERS
+-----------------------------------------------------------------------------------------------
+								USE WITH CAUTION
+===============================================================================================
+*/
+
 -- Load data into table for bronze layer -- 
 
 drop table if exists bronze.ravenstack_accounts;
