@@ -1,6 +1,6 @@
 /*
 ===============================================================================================
-Procedure: Create Empty Silver Tables
+DDL: Create Empty Silver Tables
 ===============================================================================================
 Script purpose:
 		This prodcure is simply creating and preparing our silver tables to insert our bronze data into
