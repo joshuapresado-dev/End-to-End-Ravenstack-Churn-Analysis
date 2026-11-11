@@ -1,3 +1,20 @@
+/*
+===============================================================================================
+Store procedure: Load Bronze Layer (Raw data to Bronze)
+===============================================================================================
+Script purpose:
+		This stored procedure is to insert the raw data to populate our empty 'Bronze' tables
+		from our raw tables
+	Actions:
+		- Truncate bronze tables
+		- Insert raw data values without changing or transforming any parameters
+
+To Use:
+	call bronze.load_bronze();
+===============================================================================================
+*/
+
+
 -- Insert Data into Table --
 
 create or replace procedure bronze.load_bronze()
