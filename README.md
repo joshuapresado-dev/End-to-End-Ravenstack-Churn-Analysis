@@ -34,6 +34,9 @@ The Bronze Layers acts as the first procedure to load data into the created tabl
  - Developed a PL/pgSQL stored procedure for data ingestion
 **Outcome:**
 The Bronze Layer provide the foundation of data without, and transformations for later cleaning, transforming and eventually analyzing.
+
+<img width="848" height="534" alt="image" src="https://github.com/user-attachments/assets/67177f7d-2a54-4f4f-b251-0ef11eaedbd1" />
+
  
 #### Silver Layer
 
@@ -45,11 +48,12 @@ The Silver Layer acts as the procedure to transform and normalize the data from 
  - Converted True and False values to boolean fields
  - Utilized Truncate and Insert statements to load the cleaned tables
  - Added metadata
- <img width="1112" height="568" alt="image" src="https://github.com/user-attachments/assets/781e1d8d-6f7e-4dba-92bc-eea1b1c6aa9b" />
  
  **Outcome:**
  
 The Silver Layer procedure transformed, cleaned and standardized the dataset to prepare for analytical processing and data modelling for the Gold Layer.
+
+ <img width="1112" height="568" alt="image" src="https://github.com/user-attachments/assets/781e1d8d-6f7e-4dba-92bc-eea1b1c6aa9b" />
 
 #### Gold Layer
 
