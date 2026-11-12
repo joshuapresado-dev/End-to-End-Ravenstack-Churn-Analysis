@@ -24,6 +24,9 @@ The pipeline will follow the Medallion Architecture:
 
 <img width="1259" height="655" alt="image" src="https://github.com/user-attachments/assets/39cab4ff-e1cd-4efe-a92b-56e3e5cc6e87" />
 
+##### Bronze Layer
+
+
  
 ## Licensing
 
