@@ -46,7 +46,9 @@ The Silver Layer acts as the procedure to transform and normalize the data from 
  - Utilized Truncate and Insert statements to load the cleaned tables
  - Added metadata
  <img width="1112" height="568" alt="image" src="https://github.com/user-attachments/assets/781e1d8d-6f7e-4dba-92bc-eea1b1c6aa9b" />
+ 
  **Outcome:**
+ 
 The Silver Layer procedure transformed, cleaned and standardized the dataset to prepare for analytical processing and data modelling for the Gold Layer.
 
 #### Gold Layer
