@@ -24,7 +24,30 @@ The pipeline will follow the Medallion Architecture:
 
 <img width="1259" height="655" alt="image" src="https://github.com/user-attachments/assets/39cab4ff-e1cd-4efe-a92b-56e3e5cc6e87" />
 
-##### Bronze Layer
+#### Bronze Layer
+The Bronze Layers acts as the first procedure to load data into the created tables. The data was loaded using PostgreSQL without an transformations or normalization, keeping the original data.
+
+**Implementation:**
+ - Created empty tables for all Ravenstack tables to prepare for loading
+ - Used PostgreSQL to insert all data into their respective tables
+ - Developed a PL/pgSQL stored procedure for data ingestion
+**Outcome:**
+The Bronze Layer provide the foundation of data without, and transformations for later cleaning, transforming and eventually analyzing.
+ 
+#### Silver Layer
+The Silver Layer acts as the procedure to transform and normalize the data from the bronze layer
+**Implementatiton**
+ - Standardized text using TRIM, INICAP, UPPER and LOWER
+ - Converted date fields to the appropriate date formats
+ - Converted number field to the appropriate data type
+ - Converted True and False values to boolean fields
+ - Utilized Truncate and Insert statements to load the cleaned tables
+ - Added metadata
+ <img width="1112" height="568" alt="image" src="https://github.com/user-attachments/assets/781e1d8d-6f7e-4dba-92bc-eea1b1c6aa9b" />
+ **Outcome:**
+The Silver Layer procedure transformed, cleaned and standardized the dataset to prepare for analytical processing and data modelling for the Gold Layer.
+
+#### Gold Layer
 
 
  
