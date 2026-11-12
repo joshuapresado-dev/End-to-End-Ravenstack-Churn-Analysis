@@ -32,6 +32,7 @@ The Bronze Layers acts as the first procedure to load data into the created tabl
  - Created empty tables for all Ravenstack tables to prepare for loading
  - Used PostgreSQL to insert all data into their respective tables
  - Developed a PL/pgSQL stored procedure for data ingestion
+
 **Outcome:**
 The Bronze Layer provide the foundation of data without, and transformations for later cleaning, transforming and eventually analyzing.
 
