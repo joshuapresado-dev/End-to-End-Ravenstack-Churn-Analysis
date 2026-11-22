@@ -42,6 +42,7 @@ The Bronze Layer provide the foundation of data without, and transformations for
 #### Silver Layer
 
 The Silver Layer acts as the procedure to transform and normalize the data from the bronze layer
+
 **Implementatiton**
  - Standardized text using TRIM, INICAP, UPPER and LOWER
  - Converted date fields to the appropriate date formats
