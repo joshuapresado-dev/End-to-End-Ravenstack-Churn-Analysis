@@ -5,7 +5,12 @@ Building an end-to-end Date WareHouse with PostgreSQL, using an comprehensive ET
 
 ## Executive Summary
 
-*post findings here*
+We have found that churn is not a main concern as our calculations guided us toward revenue growth and a high customer retention rate (~ 98-99%). However, customer churn rate only plays a small part as we can see our downfall rates are slightly higher. To reduce customer revenue churn rate I suggest the following:
+- 
+-
+-
+
+
 
 ### Building the Data Warehouse
 
@@ -59,7 +64,10 @@ The Silver Layer procedure transformed, cleaned and standardized the dataset to 
 
 #### Gold Layer
 
+The Gold Layer is the last layer to normalize a transform data using the Silver Layer resulting in views. These views will be business ready for analyzing results to help with business decisions.
 
+**Implementation**
+- Create views for 
 
  
 ## Licensing
