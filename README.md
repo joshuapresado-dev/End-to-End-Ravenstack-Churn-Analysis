@@ -7,9 +7,6 @@ Building an end-to-end Date WareHouse with PostgreSQL, using an comprehensive ET
 
 
 We have found that churn is not a main concern as our calculations guided us toward revenue growth and a high customer retention rate (~ 98-99%). However, customer churn rate only plays a small part as we can see our downfall rates are slightly higher. To reduce customer revenue churn rate I suggest the following:
-- 
--
--
 
 
 
