@@ -65,8 +65,13 @@ The Silver Layer procedure transformed, cleaned and standardized the dataset to 
 The Gold Layer is the last layer to normalize a transform data using the Silver Layer resulting in views. These views will be business ready for analyzing results to help with business decisions.
 
 **Implementation**
-- Create views for 
+- Create views for churn rate calculations, subscriptions etc
+- Implemented Constellation Schema for database structuring
+- Used the silver layer to create structured fact and dim tables
 
+**Outcome:**
+
+The Gold layer procedures were to normalize and to use silver data tables to create fact and dim views, preparing for aggregations either through Dax or PostgreSQL.
  
 ## Licensing
 
