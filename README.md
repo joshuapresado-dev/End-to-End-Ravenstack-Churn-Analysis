@@ -72,7 +72,24 @@ The Gold Layer is the last layer to normalize a transform data using the Silver 
 **Outcome:**
 
 The Gold layer procedures were to normalize and to use silver data tables to create fact and dim views, preparing for aggregations either through Dax or PostgreSQL.
- 
+
+
+### Aggregating Results
+
+### Objective
+
+To use the prepared Gold views to aggregate the data to help find revenue customer churn rates and downgrade rates. We will use this data to learn more about undervalued features, bugged features and churn/downsell reasons. To reduce both churn and downgrade rates.
+
+#### Questions
+
+- Why are customers leaving or downgrading their subscriptions?
+- What features cause churn/downsell?
+- Can we predict churn through customer activity?
+
+#### Aggregations
+
+The aggregations are solely views created by the gold layer to find customer churn rates and revenue customer churn rates. We will use these tables to find solutions to our downgrading problem within our SSAS, by looking through customer factors.
+
 ## Licensing
 
 This dataset is fully synthetic and distributed under a permissive MIT-like license.
